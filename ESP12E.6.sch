@@ -19972,31 +19972,31 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="3.7896" y1="2.1828" x2="-3.7896" y2="2.1828" width="0.1524" layer="21"/>
 <wire x1="-3.7896" y1="-2.1828" x2="-3.7896" y2="2.1828" width="0.1524" layer="21"/>
 <circle x="-2.9256" y="-1.3442" radius="0.401" width="0" layer="21"/>
-<smd name="1" x="-3.575" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="2" x="-2.925" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="3" x="-2.275" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="4" x="-1.625" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="5" x="-0.975" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="6" x="-0.325" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="7" x="0.325" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="8" x="0.975" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="9" x="1.625" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="10" x="2.275" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="11" x="2.925" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="12" x="3.575" y="-3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="13" x="3.575" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="14" x="2.925" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="15" x="2.275" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="16" x="1.625" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="17" x="0.975" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="18" x="0.325" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="19" x="-0.325" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="20" x="-0.975" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="21" x="-1.625" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="22" x="-2.275" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="23" x="-2.925" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="24" x="-3.575" y="3.05" dx="0.45" dy="1.65" layer="1" stop="no"/>
-<smd name="EXP" x="0" y="0" dx="4.32" dy="3" layer="1" stop="no"/>
+<smd name="1" x="-3.575" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="2" x="-2.925" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="3" x="-2.275" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="4" x="-1.625" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="5" x="-0.975" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="6" x="-0.325" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="7" x="0.325" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="8" x="0.975" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="9" x="1.625" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="10" x="2.275" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="11" x="2.925" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="12" x="3.575" y="-3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="13" x="3.575" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="14" x="2.925" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="15" x="2.275" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="16" x="1.625" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="17" x="0.975" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="18" x="0.325" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="19" x="-0.325" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="20" x="-0.975" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="21" x="-1.625" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="22" x="-2.275" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="23" x="-2.925" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="24" x="-3.575" y="3.05" dx="0.45" dy="1.65" layer="1"/>
+<smd name="EXP" x="0" y="0" dx="4.32" dy="3" layer="1"/>
 <text x="-4.1706" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="5.1612" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-3.725" y1="-3.3" x2="-3.425" y2="-2.25" layer="51"/>
@@ -24295,16 +24295,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="R-PWSON-N10">
-<smd name="1" x="-1.0033" y="1" dx="0.6096" dy="0.254" layer="1" cream="no"/>
-<smd name="2" x="-1.0033" y="0.5" dx="0.6096" dy="0.254" layer="1" cream="no"/>
-<smd name="3" x="-1.0033" y="0" dx="0.6096" dy="0.254" layer="1" cream="no"/>
-<smd name="4" x="-1.0033" y="-0.5" dx="0.6096" dy="0.254" layer="1" cream="no"/>
-<smd name="5" x="-1.0033" y="-1" dx="0.6096" dy="0.254" layer="1" cream="no"/>
-<smd name="6" x="1.0033" y="-1" dx="0.6096" dy="0.254" layer="1" rot="R180" cream="no"/>
-<smd name="7" x="1.0033" y="-0.5" dx="0.6096" dy="0.254" layer="1" rot="R180" cream="no"/>
-<smd name="8" x="1.0033" y="0" dx="0.6096" dy="0.254" layer="1" rot="R180" cream="no"/>
-<smd name="9" x="1.0033" y="0.5" dx="0.6096" dy="0.254" layer="1" rot="R180" cream="no"/>
-<smd name="10" x="1.0033" y="1" dx="0.6096" dy="0.254" layer="1" rot="R180" cream="no"/>
+<smd name="1" x="-1.0033" y="1" dx="0.6096" dy="0.254" layer="1"/>
+<smd name="2" x="-1.0033" y="0.5" dx="0.6096" dy="0.254" layer="1"/>
+<smd name="3" x="-1.0033" y="0" dx="0.6096" dy="0.254" layer="1"/>
+<smd name="4" x="-1.0033" y="-0.5" dx="0.6096" dy="0.254" layer="1"/>
+<smd name="5" x="-1.0033" y="-1" dx="0.6096" dy="0.254" layer="1"/>
+<smd name="6" x="1.0033" y="-1" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="7" x="1.0033" y="-0.5" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="8" x="1.0033" y="0" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="9" x="1.0033" y="0.5" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
+<smd name="10" x="1.0033" y="1" dx="0.6096" dy="0.254" layer="1" rot="R180"/>
 <smd name="11" x="0" y="0" dx="0.8382" dy="2.3876" layer="1" cream="no"/>
 <polygon width="0" layer="31">
 <vertex x="-0.4191" y="1.1938"/>
@@ -24323,6 +24323,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.016" y1="1.4986" x2="-1.016" y2="-1.4986" width="0.1524" layer="25"/>
 <text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<circle x="-1.524" y="1.524" radius="0.127" width="0.127" layer="25"/>
 </package>
 </packages>
 <symbols>
@@ -25364,6 +25365,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="5.08" y="2.54" size="1.778" layer="97">Project located at:
+https://github.com/OpenMYR/ESP12E.6/
+
+Copyright Christopher Adams 2016.
+Licensed under CERN OHL v.1.2 or later
+
+This documentation is distributed WITHOUT 
+ANY EXPRESS OR IMPLIED WARRANTY, 
+INCLUDING OF MERCHANTABILITY, 
+SATISFACTORY QUALITY AND FITNESS 
+FOR A PARTICULAR PURPOSE. 
+Please see the CERN OHL v.1.2 for applicable conditions</text>
 </plain>
 <instances>
 <instance part="C3" gate="G$1" x="193.04" y="114.3"/>
@@ -26322,4 +26335,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
