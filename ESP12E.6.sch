@@ -24233,22 +24233,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="TPS62177">
 <packages>
-<package name="0402">
-<smd name="1" x="-0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<smd name="2" x="0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<wire x1="-0.1524" y1="-0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="-0.3048" x2="-0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.1524" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="0.3048" x2="0.127" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="-0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
 <package name="0805">
 <smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
 <smd name="2" x="0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
@@ -24327,20 +24311,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="WB_RESISTOR">
-<pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="3.81" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="1.524" x2="1.905" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="-1.524" x2="0" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.524" x2="-3.81" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="1.524" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
-<text x="-4.7244" y="4.6736" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
 <symbol name="WB_CAPACITOR">
 <pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
@@ -24419,29 +24389,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRCW0402100KFKED">
-<gates>
-<gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0402">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_NAME" value="Vishay-Dale" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402100KFKED" constant="no"/>
-<attribute name="POWER" value="0.063" constant="no"/>
-<attribute name="RESISTANCE" value="100000.0" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="Vishay-Dale" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GRM21BR60J226ME39L">
 <gates>
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
@@ -25350,7 +25297,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP8" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0603" value="DNP"/>
 <part name="R26" library="adafruit" deviceset="R-US_" device="R0603" value="DNP"/>
-<part name="U$1" library="TPS62177" deviceset="CRCW0402100KFKED" device=""/>
 <part name="U$2" library="TPS62177" deviceset="GRM21BR60J226ME39L" device=""/>
 <part name="U$3" library="TPS62177" deviceset="GRM188R61C225KE15D" device=""/>
 <part name="U$4" library="TPS62177" deviceset="SDR0503-100ML" device=""/>
@@ -25463,7 +25409,6 @@ Please see the CERN OHL v.1.2 for applicable conditions</text>
 <instance part="JP8" gate="A" x="378.46" y="68.58"/>
 <instance part="R25" gate="G$1" x="353.06" y="63.5" rot="R270"/>
 <instance part="R26" gate="G$1" x="345.44" y="93.98"/>
-<instance part="U$1" gate="A" x="591.82" y="297.18" rot="R270"/>
 <instance part="U$2" gate="A" x="614.68" y="297.18" rot="R270"/>
 <instance part="U$3" gate="A" x="482.6" y="281.94" rot="R270"/>
 <instance part="U$4" gate="A" x="574.04" y="307.34"/>
@@ -25980,8 +25925,6 @@ Please see the CERN OHL v.1.2 for applicable conditions</text>
 <wire x1="586.74" y1="287.02" x2="586.74" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="A" pin="2"/>
 <wire x1="586.74" y1="307.34" x2="581.66" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="A" pin="2"/>
-<wire x1="591.82" y1="304.8" x2="591.82" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="591.82" y1="307.34" x2="586.74" y2="307.34" width="0.1524" layer="91"/>
 <junction x="586.74" y="307.34"/>
 <pinref part="U$5" gate="A" pin="SLEEP"/>
@@ -25997,6 +25940,9 @@ Please see the CERN OHL v.1.2 for applicable conditions</text>
 <wire x1="614.68" y1="307.34" x2="614.68" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <junction x="604.52" y="307.34"/>
+<wire x1="591.82" y1="307.34" x2="591.82" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="A" pin="PG"/>
+<wire x1="591.82" y1="266.7" x2="558.8" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
@@ -26313,14 +26259,6 @@ Please see the CERN OHL v.1.2 for applicable conditions</text>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="68.58" x2="353.06" y2="68.58" width="0.1524" layer="91"/>
 <junction x="365.76" y="68.58"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$1" gate="A" pin="1"/>
-<wire x1="591.82" y1="289.56" x2="591.82" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="A" pin="PG"/>
-<wire x1="591.82" y1="266.7" x2="558.8" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
