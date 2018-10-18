@@ -25367,11 +25367,11 @@ With round pins</description>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="DNP"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="R24" library="adafruit" deviceset="R-US_" device="R0603" value="DNP"/>
+<part name="R24" library="adafruit" deviceset="R-US_" device="R0603" value="0"/>
 <part name="JP7" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="JP8" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0603" value="DNP"/>
-<part name="R26" library="adafruit" deviceset="R-US_" device="R0603" value="DNP"/>
+<part name="R26" library="adafruit" deviceset="R-US_" device="R0603" value="0"/>
 <part name="U$2" library="TPS62177" deviceset="GRM21BR60J226ME39L" device=""/>
 <part name="U$3" library="TPS62177" deviceset="GRM188R61C225KE15D" device=""/>
 <part name="U$4" library="TPS62177" deviceset="SDR0503-100ML" device=""/>
