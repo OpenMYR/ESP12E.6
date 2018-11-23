@@ -85,6 +85,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-*.pro
 *.job
 *.kicad_pcb-bak
